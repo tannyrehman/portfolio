@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 500px;
+}
+.text-60 {
+    font-size: 60px;
+}
+.text-24 {
+    font-size: 24px;
+}
+.text-20 {
+    font-size: 20px;
+}
+.text-18 {
+    font-size: 18px;
+}
+.text-16 {
+    font-size: 16px;
+}
+.text-14 {
+    font-size: 14px;
+}
+
+.fw-400 {
+    font-weight: 400;
+}
+.fw-600 {
+    font-weight: 600;
+}
+p {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+/* Header Section */
+
+.header-section {
+    background-color: #F4F7FF;
+}
+.header-section {
+    padding: 100px 0 30px  0;
+}
+.header-title h1 {
+    font-size: 60px;
+    font-weight: 600;
+}
+.header-title p {
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.6);
+}
+.header-package {
+    margin-top: 30px;
+}
+.package-info {
+    background-color: #fff;
+    padding: 30px 0 30px 30px;
+    border-radius: 6px;
+}
+.pac-txt span {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Table Section */
+.table-section {
+    padding-top: 60px;
+    background-color: #fff;
+}
+.table-title h6 {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.6);
+}
+.table-title span {
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.6);
+}
+.table-info {
+    width: 947px;
+    margin: 0 auto;
+}
+.table-tr {
+    background-color: red;
+}
+
+/* Discount Section */
+
+.discount-title span {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.discount-bottom {
+    max-width: 947px;
+    text-align: center;
+    margin: 0 auto;  
+}
+.discount-bottom p {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+/* Additional Discount */
+
+.additional-discount {
+    max-width: 947px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #F4F7FF;
+    padding: 24px 32px 24px 32px;
+    border-radius: 4px;
+}
+.additional-title p {
+    color: rgba(0, 0, 0, 0.6);
+}
+.discount-btn {
+    border: none;
+    background: #000000;
+    color: #fff;
+    border-radius: 4px;
+    padding: 9px 16px 9px 16px;
+    margin-top: 16px;
+}
+
+/* Related Product Section */
+
+.product-section {
+    background: #F4F7FF;
+    padding: 32px 150px 32px 150px;
+}
+.product-info {
+    margin-bottom: 24px;
+    background: #fff;
+    border-radius: 4px;
+    padding: 15px 29px 15px 16px;
+}
+
+/* Tabs CSS */
+.tabs-header {
+    background-color: #000000;
+    padding: 20px;
+}
+.header-img a {
+    font-size: 30px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+/* Pricing Section */
+
+.pricing-section {
+    background: #F4F7FF;
+    padding: 32px 0;    
+}
+.pricing-title p {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+
