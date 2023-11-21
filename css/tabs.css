@@ -1,0 +1,66 @@
+h5 {
+    margin-bottom: 0;
+}
+hr {
+    margin-top: 0;
+}
+p {
+    margin-bottom: 0;
+}
+form input,
+form select {
+    margin-bottom: 15px;
+}
+.input-icon {
+    width: 350px;
+}
+.edit-btn {
+    background-color: rgba(27, 27, 105, 0.721);
+    color: #fff;
+    border-radius: 3px;
+    border: none;
+}
+.cancle-btn {
+    font-size: 12px;
+    border: 0;
+    font-weight: 700;
+    border-radius: 4px;
+    padding: 6px 10px;
+}
+.save-btn {
+    font-size: 12px;
+    border: 0;
+    font-weight: 700;
+    border-radius: 4px;
+    background-color: rgba(27, 27, 105, 0.721);
+    color: #fff;
+    padding: 6px 10px;
+}
+.form-input {
+    width: 85%;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0 10px;
+    border-radius: 4px;
+    border: 2px solid rgb(230, 229, 229);
+}
+
+.delect-btn {
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+}
+.m-body {
+    height: 200px;
+    overflow-y: scroll;
+}
+.first-col {
+    border-right: 2px solid rgb(230, 229, 229);
+}
+.modal-header {
+    background-color: rgb(230, 229, 229);
+}
+.modal-footer {
+    background-color: rgb(23, 23, 67);
+}

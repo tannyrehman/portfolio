@@ -165,5 +165,43 @@ p {
     font-weight: 400;
 }
 
+/* Input Box */
+
+input {
+    width: 602px;
+    height: 48px;
+    padding: 10px;
+    border-radius: 5px 0 5px 0;
+    background-color: rgb(215, 201, 201);
+    border: none;
+
+}
+button {
+    height: 48px;
+    width: 131px;
+    background-color: black;
+    color: #fff;
+    margin-left: -5px;
+    border-radius: 0px 5px 5px 0;
+}
+
+/* Table */
+
+.table {
+    border: 2px solid black;
+}
+.last-table tr, 
+.last-table td {
+    text-transform: uppercase;
+}
+.last-table td {
+    border: 2px solid black;
+}
 
 
+/* General Tabs */
+.form-two {
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}

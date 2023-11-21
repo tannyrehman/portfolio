@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
+    <link rel="stylesheet" href="css/all.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/tabs.css">
 </head>
 <body>
     <!-- Header Section -->
@@ -48,6 +48,8 @@
                 </ul>
                 
                 <div class="tab-content">
+
+                  <!-- All Product -->
                     <div id="all" class="active tab-pane fade in show">
                      
                       <div class="row">
@@ -111,12 +113,13 @@
                                 </div>
                               </div>
                         </div>
-                      </div>
-    
-                      
+                      </div>  
                     </div>
+
+                    <!-- Latest Product -->
+
                     <div id="latest" class=" tab-pane fade">
-                        <div class="row">
+                        <div class="row justify-content-center">
                             <div class="col-lg-3 my-4">
                                 <div class="card" >
                                     <img src="images/pic8.jpg" class="card-img-top" alt="...">
@@ -149,6 +152,8 @@
                             </div> 
                         </div>
                     </div>
+
+                    <!-- Popular product -->
                     <div id="popular" class=" tab-pane fade">
                         <div class="row">
                             <div class="col-lg-3 my-4">
@@ -191,9 +196,387 @@
    </section>
 
 
+   <!-- Tabs Homework -->
+
+   <section class="mt-5 ">
+    <div class="container">
+        <div class="">
+          <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <button class="nav-link active" href="#overview" data-bs-toggle="tab">Overview</button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link" href="#general"
+                data-bs-toggle="tab">General</button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link" href="#teccnical"
+                data-bs-toggle="tab">Tecnical Data</button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link" href="#standard"
+                data-bs-toggle="tab">Standard Equipment</button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link" href="#special"
+                data-bs-toggle="tab">Special Equipment</button>
+            </li>
+        </ul>
+        <div class="tab-content">
+            
+                  <!-- Overview -->
+                  <div id="overview" class="active tab-pane fade in show">
+                     
+                    <div class="row">
+                      <div class="col-lg-3 my-4">
+                          <div class="card" >
+                             
+                              <div class="card-body">
+                                <h5>coming Soon</h5>
+                              </div>
+                            </div>
+                      </div>
+                      <div class="col-lg-3 my-4">
+                          <div class="card" >
+                              
+                              <div class="card-body">
+                               <h5>Coming Soon</h5>
+                              </div>
+                            </div>
+                      </div>
+                      <div class="col-lg-3 my-4">
+                          <div class="card" >
+                             
+                              <div class="card-body">
+                                <h5>Coming Soon</h5>
+                              </div>
+                            </div>
+                      </div>
+                      <div class="col-lg-3 my-4">
+                          <div class="card" >
+                            
+                              <div class="card-body">
+                                <h5>Coming soon</h5>
+                              </div>
+                            </div>
+                      </div>
+                      
+                    </div>  
+                  </div>
+
+                  <!-- General Tabs-->
+
+                  <div id="general" class="tab-pane fade">
+                    <div class="row mt-3">
+                      <!-- 1st-coloum -->
+
+                      <div class="col-md-4">
+                        <div>
+                          <h5>Contact Information</h5>
+                        <hr class="w-50">
+                        </div>
+                        <form action="#">
+                          <div>
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Contact</option>
+                              <option value="1">One</option>
+                            </select>
+                          </div>
+                          <div>
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Responsive branch</option>
+                              <option value="1">One</option>
+                            </select>
+                          </div>
+                          <input type="text" class="form-control" placeholder="Name supplier">
+                          <input type="email" class="form-control" placeholder="E-Mail supplier">
+                          <input type="tel" class="form-control" placeholder="Phone no. supplier" >
+                       
+                          <div>
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Goods in stock</option>
+                              <option value="1">One</option>
+                            </select>
+                          </div>
+                          <input type="date" class="form-control" placeholder="Non-binding delivery day if not in store">
+                          <div>
+                            <h5>Price</h5>
+                            <hr>
+                          </div>
+                          <input type="text" class="form-control" placeholder="Price incl. vat">
+                          <div>
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Vat</option>
+                              <option value="1">One</option>
+                            </select>
+                          </div>
+                        </form>
+                      </div>
+                      <!-- 2nd coloum -->
+                      <div class="col-md-4">
+                        <div>
+                          <h5>vehicle</h5>
+                        <hr class="w-25">
+                        </div>
+                      
+                        <form action="#">
+                         <div>
+                          <select class="form-select" aria-label="Default select example">
+                            <option selected>Make</option>
+                            <option value="1">One</option>
+                          </select>
+                         </div>
+                         <div>
+                          <select class="form-select" aria-label="Default select example">
+                            <option selected>Model</option>
+                            <option value="1">One</option>
+                          </select>
+                         </div>
+                         <div>
+                          <select class="form-select" aria-label="Default select example">
+                            <option selected>Model Details</option>
+                            <option value="1">One</option>
+                          </select>
+                         </div>
+                         <input type="number" class="form-control" placeholder="Vin No.">
+                         <div>
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Vehicle type</option>
+                              <option value="1">One</option>
+                            </select>
+                         </div>
+                         <div>
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Vehicle Category</option>
+                              <option value="1">One</option>
+                            </select>
+                         </div>
+                         <div>
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Color</option>
+                              <option value="1">One</option>
+                            </select>
+                         </div>
+                         <div>
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Interior</option>
+                              <option value="1">One</option>
+                            </select>
+                         </div>
+                         <div>
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Interior color</option>
+                              <option value="1">One</option>
+                            </select>
+                         </div>
+                         <div>
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Fuel</option>
+                              <option value="1">One</option>
+                            </select>
+                         </div>
+                        </form>
+                      </div>
+
+                      <!--3rd coloum  -->
+                      <div class="col-md-4 mt-5">
+                        <form action="#">
+                          <div>
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Gearshift</option>
+                              <option value="1">One</option>
+                            </select>
+                         </div>
+                         <input type="" class="form-control" placeholder="Mileage">
+                         <div>
+                          <select class="form-select" aria-label="Default select example">
+                            <option selected>First registration(MM/YYYY)</option>
+                            <option value="1">One</option>
+                          </select>
+                       </div>
+                         <div>
+                          <select class="form-select" aria-label="Default select example">
+                            <option selected>Condition</option>
+                            <option value="1">One</option>
+                          </select>
+                       </div>
+                         <div>
+                          <select class="form-select" aria-label="Default select example">
+                            <option selected>Previous owner</option>
+                            <option value="1">One</option>
+                          </select>
+                       </div>
+                         <div>
+                          <select class="form-select" aria-label="Default select example">
+                            <option selected>Seats</option>
+                            <option value="1">One</option>
+                          </select>
+                       </div>
+                         <div>
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Doors</option>
+                              <option value="1">One</option>
+                            </select>
+                       </div>
+                       <input type="text" class="form-control" placeholder="NoVa percentage">
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Standard Equipment -->
+
+                  <div id="standard" class="tab-pane fade">
+                      <div class="row mt-3">
+                        <!-- First column -->
+                        <div class="col-md-8 first-col">
+
+                          <div class="d-flex gap-3">
+                            <input type="text" class="input-icon">
+                            <button class="edit-btn" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-solid fa-pencil"></i></button>
+                          </div>
+
+                          <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                              <div class="modal-dialog">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Serienaustattung bearbeiten</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  </div>
+
+                                  <div class="modal-body m-body">
+                                    <div class="mb-3">
+                                      <input type="text" class="form-input" placeholder="ABS">
+                                      <button class="delect-btn"><i class="fa-solid fa-trash-can"></i></button>
+                                    </div>
+                                    <div class="mb-3">
+                                      <input type="text" class="form-input" placeholder="Alarmanlage">
+                                      <button class="delect-btn"><i class="fa-solid fa-trash-can"></i></button>
+                                    </div>
+                                    <div class="mb-3">
+                                      <input type="text" class="form-input" placeholder="Test">
+                                      <button class="delect-btn"><i class="fa-solid fa-trash-can"></i></button>
+                                    </div>
+                                    <div class="mb-3">
+                                      <input type="text" class="form-input" placeholder="Test">
+                                      <button class="delect-btn"><i class="fa-solid fa-trash-can"></i></button>
+                                    </div>
+                                    <div>
+                                      <input type="text" class="form-input" placeholder="Test">
+                                      <button class="delect-btn"><i class="fa-solid fa-trash-can"></i></button>
+                                    </div>
+                                  </div>
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn text-white" data-bs-dismiss="modal">Abbrechen</button>
+                                    <button type="button" class="btn text-white btn-secondary">Speichern</button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            
+                          <div class="checkbox mt-4">
+                            <div class="d-flex gap-3">
+                              <input type="checkbox">
+                              <span>ABS</span>
+                            </div>
+                            <div class="d-flex gap-3">
+                              <input type="checkbox">
+                              <span>Alarmanlage</span>
+                            </div>
+                            <div class="d-flex gap-3">
+                              <input type="checkbox">
+                              <span>Test</span>
+                            </div>
+                            <div class="d-flex gap-3">
+                              <input type="checkbox">
+                              <span>Test</span>
+                            </div>
+                            <div class="d-flex gap-3">
+                              <input type="checkbox">
+                              <span>Test</span>
+                            </div>
+                            <div class="d-flex gap-3">
+                              <input type="checkbox">
+                              <span>Test</span>
+                            </div>
+                            <div class="d-flex gap-3">
+                              <input type="checkbox">
+                              <span>Test</span>
+                            </div>
+                            <div class="d-flex gap-3">
+                              <input type="checkbox">
+                              <span>Test</span>
+                            </div>
+                            <div class="d-flex gap-3">
+                              <input type="checkbox">
+                              <span>Test</span>
+                            </div>
+                            <div class="d-flex gap-3">
+                              <input type="checkbox">
+                              <span>Test</span>
+                            </div>
+                            <div class="d-flex gap-3">
+                              <input type="checkbox">
+                              <span>Test</span>
+                            </div>
+                            <div class="d-flex gap-3">
+                              <input type="checkbox">
+                              <span>Test</span>
+                            </div>
+                            <div class="d-flex gap-3">
+                              <input type="checkbox">
+                              <span>Test</span>
+                            </div>
+                            <div class="d-flex gap-3">
+                              <input type="checkbox">
+                              <span>Test</span>
+                            </div>
+                            <div class="d-flex gap-3">
+                              <input type="checkbox">
+                              <span>Z-Test</span>
+                            </div>
+                          </div>
+
+                          
+                        </div>
+
+                        <!-- Second column -->
+
+                        <div class="col-md-4">
+                          <div>
+                            <p>Ausgewahlt</p>
+                          </div>
+                          <div>
+                            <div class="">
+                              <i class="fa-solid fa-check"></i>
+                              <span>ABS</span>
+                            </div>
+                            <div>
+                              <i class="fa-solid fa-check"></i>
+                              <span>Alarmanlage</span>
+                            </div>
+                            <div>
+                              <i class="fa-solid fa-check"></i>
+                              <span>Airbag Fahrer/Beifahrerseite</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="mt-5 justify-content-between d-flex">
+                        <button class="cancle-btn ">Cancle & Close</button>
+                        <button class="save-btn">Save & Publish</button>
+                      </div>
+                  </div>
+          </div>
+       </div>
+   </div>
+ </section>
+
+
    <!-- Pills Tabs -->
 
-   <div class="container">
+   <div class="container mt-5">
     <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
       <li class="nav-item" role="presentation">
         <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Home</button>
@@ -206,13 +589,16 @@
       </li>
     </ul>
     <div class="tab-content" id="pills-tabContent">
-      <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+
+      <div class="tab-pane fade show active text-center" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
         <img src="images/img1.png" alt="">
       </div>
-      <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+
+      <div class="tab-pane fade text-center" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
         <img src="images/img10.png" alt="">
       </div>
-      <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+
+      <div class="tab-pane fade text-center" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero obcaecati autem cum totam dolorum officia expedita dolores officiis excepturi voluptatibus quo eius at dignissimos aliquid adipisci odio possimus, hic iste voluptatum doloribus suscipit ullam. Repellendus, fugiat. Ad temporibus, itaque nostrum quod alias ex, unde deserunt fuga inventore quam laboriosam sed?</p>
       </div>
     </div>
